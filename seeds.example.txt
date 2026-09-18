@@ -1,0 +1,12 @@
+# This file is an example.
+# Copy it, rename it to seeds.txt, and add your target URLs.
+
+# --- FastAPI Documentation ---
+https://fastapi.tiangolo.com/tutorial/
+https://fastapi.tiangolo.com/advanced/
+
+# --- SQLAlchemy Documentation ---
+# https://docs.sqlalchemy.org/en/20/orm/quickstart.html
+
+# --- Pydantic Documentation ---
+# https://docs.pydantic.dev/latest/concepts/models/

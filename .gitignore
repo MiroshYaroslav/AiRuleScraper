@@ -1,0 +1,18 @@
+# Environments
+.env
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Crawler seeds
+seeds.txt
+seeds_done.txt
