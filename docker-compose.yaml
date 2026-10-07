@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  crawler:
+    build: .
+    container_name: airulescraper_crawler
+    env_file:
+      - .env
+    volumes:
+      - ./seeds.txt:/app/seeds.txt
+      - ./seeds_done.txt:/app/seeds_done.txt
+    command: python run_crawler.py
+
+  miner:
+    build: .
+    container_name: airulescraper_miner
+    env_file:
+      - .env
+    command: python run_miner.py
